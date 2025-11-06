@@ -1,6 +1,6 @@
 import axios from "axios";
 
- const API_URL = "http://16.16.214.243/back1/auth";  // Updated Backend API URL
+const API_BASE_URL = "http://54.163.156.50:30083/back1/api/products";
 
 // Fetch products by category (computers, mobiles, laptops, pendrives, or all)
 export const getProducts = async (category = "") => {
